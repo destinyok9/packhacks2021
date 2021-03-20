@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'fulbo';
+  src: url(fulbo-argenta-webfont.woff) format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homebar {
+  font-family: 'fulbo';
+  font-size: 18px;
+  color: #ffffff;
+  width: auto;
+  height:120px;
+  background-color: #8989e5;
+}
+
+.homebar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  text-decoration: underline;
+
+}
+
+.register {
+  margin-right: 50px;
+}
+
+.font1 {
+  font-size: ;
+  font-family:
+}
