@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'fulbo';
+  src: url(fulbo-argenta-webfont.woff) format('woff');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.next {
+  color: #ffffff;
+  z-index: 2;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.next:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.homebar {
+  position: fixed;
+  font-family: 'fulbo';
+  font-size: 18px;
+  color: #ffffff;
+  width: 100%;
+  height:100px;
+  padding: 45px;
+  background-color: #8989e5;
+  display: flex;
+  justify-content: space-between;
+}
+
+div > ul {
+  list-style: none;
+  background-color: #9e9eea;
+  padding: 16px;
+  padding-top: 40px;
+  line-height: 30px;
+  text-align: center;
+  border-color: #9e9eea;
+  border-radius: 4px;
+
+  display: none;
+  flex-direction: column;
+}
+
+li:first-of-type {
+  line-height: 50px;
+}
+
+.register {
+  margin-right: 50px;
+}
+
+.font1 {
+  font-size: ;
+  font-family:
+}
+
+.dropdown {
+  list-style: none;
+  display: flex;
+  z-index: 1;
+
+  position: fixed;
+  top: 30px;
+  right: 820px;
+}
+
+.website {
+  font-family: Helvetica;
+}
+
+.picture {
+  margin-top: -10px;
+}
