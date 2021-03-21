@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'fulbo';
+  src: url(fulbo-argenta-webfont.woff) format('woff');
+}
+
+.formatter {
+  padding: 70px;
+}
+
+.toptext {
+  font-family: 'fulbo';
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  color: #9e9eea;
+  text-align: center;
+}
+
+.adultinginformation {
+  padding: 40px;
+  width:1120px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-color: #8989e5;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 20px;
+  background-color: #8989e5;
+}
+
+
+.title {
+  font-family: 'fulbo';
+  font-size: 60px;
+  display: flex;
+  margin-right: 50px;
+  width: 500px;
+  justify-content: left;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.title2 {
+  font-family: 'fulbo';
+  font-size: 60px;
+  display: flex;
+  margin-right: 50px;
+  width: 1000px;
+  justify-content: left;
+  color: #FFFFFF;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.information {
+  font-family: georgia;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+.resources1,
+.resources1:link {
+  font-family: georgia;
+  font-size: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+#zogo {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+#zogo:hover {
+  text-decoration: underline;
+}
+
+.last {
+  align-content: center;
+}
